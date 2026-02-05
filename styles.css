@@ -1,0 +1,70 @@
+/* Fondo general */
+body {
+  margin: 0;
+  padding: 32px;
+  background: linear-gradient(135deg, #fff1f5 0%, #f3f0ff 100%);
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #3d2a2f;
+}
+
+/* Contenedor principal */
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Títulos cursivos y grandes */
+h1, h2, h3 {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-style: italic;
+  font-size: 36px;
+  color: #8a2f57;
+  margin-bottom: 20px;
+}
+
+/* Tarjeta que une imagen + texto */
+.card {
+  background: #ffffff;
+  border: 3px solid rgba(138, 47, 87, 0.25);
+  border-radius: 18px;
+  padding: 16px;
+  width: 380px;
+  margin: 20px auto;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.10);
+}
+
+/* Imagen dentro de la tarjeta */
+.card-img {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+  margin-bottom: 12px;
+}
+
+/* Texto debajo de la imagen */
+.card-text {
+  font-size: 16px;
+  color: #4a3440;
+  margin: 0;
+}
+
+.credits {
+  margin: 28px auto 0;
+  max-width: 900px;
+  font-family: "Trebuchet MS", "Arial", sans-serif;
+  color: #5a2a3a;
+  background: #ffffff;
+  border: 3px solid rgba(138, 47, 87, 0.25);
+  border-radius: 18px;
+  padding: 16px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.10);
+}
+
+.credits h3 {
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
+.credits p {
+  margin: 6px 0;
+}
